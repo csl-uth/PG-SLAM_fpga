@@ -34,9 +34,11 @@ Commands to build for ZCU102:
 The results are created inside `xclbin` directory. Software binary is named `host` and the hardware binary `<name>.hw.xclbin`.
 
 ### Run
-For our experiments we use the living-room trajectory 2 [ICL-NUIM dataset](https://www.doc.ic.ac.uk/~ahanda/VaFRIC/iclnuim.html). We create the `.raw` format using the `scene2raw.cpp` program of the slambench1 repo. Depending on the input trajectory you must provide the necessary arguments. For instance, to run trajectory 2 (using the default parameters) you must type the command:
+For our experiments we use the four living-room trajectories [ICL-NUIM dataset](https://www.doc.ic.ac.uk/~ahanda/VaFRIC/iclnuim.html) and the three trajectories of the datasets branch. We create the `.raw` format using the `scene2raw.cpp` program of the slambench1 repo, using floats to save the pixels. Depending on the input trajectory you must provide the necessary arguments. For instance, to run rb.traj0 (using the default parameters) you must type the command:
 
 `./host -i rb_trj0.raw -s 8 -p 4.0,4.0,4.0 -r 1 -c 2 -k 570.342,570.342,319.5,239.5 -a 50 -e 5 -o output.log -x hwKernels.hw.xclbin` 
+
+To run the ICL-NUIM trajectories, replace camera intrinsics using `-k 481.2,480,320,240`.
 
 ### Get in Touch
 
