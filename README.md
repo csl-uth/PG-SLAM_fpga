@@ -1,4 +1,4 @@
-# pg-slam_fpga
+# PG-SLAM_fpga
 
 This repository contains Xilinx MPSoC FPGA configurations for PG-SLAM (Pose Graph - Simultaneous Localization and Mapping) algorithm. PG-SLAM introduces a pose graph optimization module, as an extension on the KinectFusion pipeline, to help recover the humanoid robot's pose. The original CUDA version on ROS of the algorithm is on [this repo](https://github.com/mrsp/slam_stack). Our work implements and evaluates a plethora of MPSoC FPGA designs, exploring a variety of precise and approximate optimizations.
 
