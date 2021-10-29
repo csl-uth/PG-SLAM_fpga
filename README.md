@@ -4,8 +4,8 @@ This repository contains Xilinx MPSoC FPGA configurations for PG-SLAM (Pose Grap
 
 Repository branches:
 
-* sw-only: unoptimized baseline implementation running on ARM with OpenMP
-* fastest_precise: fastest and precise HW implementation which implements the Bilateral Filter, Integration and Fuse Voxelgrids kernels on HW and enables all the precise optimizations of them
+* sw-only: unoptimized baseline implementation running on ARM with OpenMP.
+* fastest_precise: fastest and precise HW implementation which implements the Bilateral Filter, Integration and Fuse Voxelgrids kernels on HW and enables all the precise optimizations.
 * C1: approximate HW implementation which achieves the best performance (36.04 fps)
 * C2: approximate HW implementation which achieves the best performance with zero untracked frames (28.23 fps)
 * datasets: includes three trajectories generated in the lab environment using NAO humanoid robot with an Intel Realsense D455 RGB-D camera
