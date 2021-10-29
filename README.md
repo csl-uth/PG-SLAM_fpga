@@ -63,4 +63,3 @@ For more information for our laboratory visit [https://csl.e-ce.uth.gr](https://
 We note that we use code from [SLAMBench1](https://github.com/pamela-project/slambench1) and [TooN library](https://github.com/edrosten/TooN) repositories, which each one retains its original license.
 * slambench1 copyright MIT
 * TooN copyright 2-Clause BSD (The original license file also exists on /lib/TooN) 
-* 
